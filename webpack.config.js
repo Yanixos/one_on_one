@@ -24,7 +24,7 @@ module.exports = {
     devServer: {
         contentBase: path.resolve(__dirname, './reactjs/dist'),
         compress: true,
-        port: 8080,
+        port: 12345,
 	      historyApiFallback: {
             rewrites: [
                 { from: /./, to: '/app/index.html' }
